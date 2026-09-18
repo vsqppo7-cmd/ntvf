@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя тематическая страница</title>
+</head>
+<body bgcolor="#FFF8DC" text="#000000" link="#0000FF" vlink="#800080">
+
+    <h1 align="center">Добро пожаловать!</h1>
+    <hr/>
+
+    <h2>О странице</h2>
+    <p>Это <b>статическая</b> Web-страница, созданная в рамках практической работы.
+       Здесь продемонстрированы основные элементы HTML: заголовки, абзацы,
+       изображения, ссылки, таблицы и списки.</p>
+
+    <h2>Изображение</h2>
+    <img src="my_picture.png" alt="Логотип" width="150" height="100" border="2"/>
+    
+
+    <h2>Гиперссылки</h2>
+    <ul>
+        <li><a href="http://www.microsoft.com" target="_blank">Microsoft</a></li>
+        <li><a href="mailto:student@example.com">Написать письмо</a></li>
+        <li><a href="#section1">Перейти к разделу 1</a></li>
+    </ul>
+
+    <h2 id="section1">Раздел 1. Списки</h2>
+
+    <h3>Маркированный список</h3>
+    <ul type="disc">
+        <li>Первый элемент</li>
+        <li>Второй элемент</li>
+    </ul>
+
+    <h3>Нумерованный список</h3>
+    <ol type="A">
+        <li>Пункт A</li>
+        <li>Пункт B</li>
+    </ol>
+
+    <h3>Список определений</h3>
+    <dl>
+        <dt>HTTP</dt>
+        <dd>Протокол передачи гипертекста</dd>
+        <dt>URL</dt>
+        <dd>Универсальный указатель ресурса</dd>
+    </dl>
+
+    <h2>Форматированный текст</h2>
+    <pre>
+    Пример кода:
+    for (int i = 0; i < 10; i++) {
+        System.out.println(i);
+    }
+    </pre>
+
+    <h2>Таблица</h2>
+    <table border="1" cellpadding="8" width="60%">
+        <tr bgcolor="#D3D3D3">
+            <th>Студент</th>
+            <th>Группа</th>
